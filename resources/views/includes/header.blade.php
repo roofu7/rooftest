@@ -8,22 +8,22 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                        <a class="nav-link active" aria-current="page" href="{{ route('index.home') }}">Главная</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Каталог</a>
+                        <a class="nav-link" href="{{ route('index.catalog') }}">Каталог</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Стоимость</a>
+                        <a class="nav-link" href="{{ route('index.price') }}">Стоимость</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Гарантии</a>
+                        <a class="nav-link" href="{{ route('index.guarantees') }}">Гарантии</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">О компании</a>
+                        <a class="nav-link" href="{{ route('index.about company') }}">О компании</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Контакты</a>
+                        <a class="nav-link" href="{{ route('index.contacts') }}">Контакты</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled">Disabled</a>
