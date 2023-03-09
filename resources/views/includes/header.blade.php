@@ -11,7 +11,7 @@
                         <a class="nav-link active" aria-current="page" href="{{ route('index.home') }}">Главная</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('index.catalog') }}">Каталог</a>
+                        <a class="nav-link" href="{{ route('index.services') }}">Услуги</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('index.price') }}">Стоимость</a>

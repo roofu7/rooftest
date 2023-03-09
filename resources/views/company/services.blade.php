@@ -2,6 +2,6 @@
 
 @section('content')
     <h2>
-        catalog
+        services
     </h2>
 @endsection
